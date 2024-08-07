@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# 跟着NVIDIA学深度学习
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+官方主页[learn.nvidia.com](https://learn.nvidia.com/).
 
-## Commands
+## 大纲
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* 前置课
+    * 使用 LLM 构建 RAG 代理
+    * 使用 RAG 增强大语言模型入门
+* 训练营
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
