@@ -9,23 +9,23 @@
       
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
-        <title>跟着Nvidia学习deep learning</title>
+        <title>一、使用 LLM 构建 RAG 代理 - 跟着Nvidia学习deep learning</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +44,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nvidia" class="md-skip">
+        <a href="#llm-rag" class="md-skip">
           跳转至
         </a>
       
@@ -86,7 +86,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="跟着Nvidia学习deep learning" class="md-header__button md-logo" aria-label="跟着Nvidia学习deep learning" data-md-component="logo">
+    <a href=".." title="跟着Nvidia学习deep learning" class="md-header__button md-logo" aria-label="跟着Nvidia学习deep learning" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              跟着NVIDIA学深度学习
+              一、使用 LLM 构建 RAG 代理
             
           </span>
         </div>
@@ -195,11 +195,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -214,9 +212,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -258,7 +258,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="跟着Nvidia学习deep learning" class="md-nav__button md-logo" aria-label="跟着Nvidia学习deep learning" data-md-component="logo">
+    <a href=".." title="跟着Nvidia学习deep learning" class="md-nav__button md-logo" aria-label="跟着Nvidia学习deep learning" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -268,6 +268,26 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    跟着NVIDIA学深度学习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
       
       
@@ -289,18 +309,18 @@
           
   
   <span class="md-ellipsis">
-    跟着NVIDIA学深度学习
+    一、使用 LLM 构建 RAG 代理
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    跟着NVIDIA学深度学习
+    一、使用 LLM 构建 RAG 代理
   </span>
   
 
@@ -324,7 +344,73 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      大纲
+      简介
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="简介">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      学习目标
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      内容主题
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程大纲
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      复现步骤
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="复现步骤">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-nvidia-deep-learning-institute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1 介绍NVIDIA Deep Learning Institute 并设置环境
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      扩展
     </span>
   </a>
   
@@ -334,26 +420,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    一、使用 LLM 构建 RAG 代理
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -373,17 +439,47 @@
                   
 
 
-<h1 id="nvidia">跟着NVIDIA学深度学习</h1>
-<p>官方主页<a href="https://learn.nvidia.com/">learn.nvidia.com</a>.</p>
-<h2 id="_1">大纲</h2>
+<h1 id="llm-rag">一、使用 LLM 构建 RAG 代理</h1>
+<h2 id="_1">简介</h2>
 <ul>
-<li>前置课<ol>
-<li><a href="%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/">使用 LLM 构建 RAG 代理</a></li>
-<li>使用 RAG 增强大语言模型入门</li>
-</ol>
-</li>
-<li>训练营</li>
+<li><a href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1">课程地址</a></li>
 </ul>
+<h3 id="_2">学习目标</h3>
+<ol>
+<li>编写一个 LLM 系统，该系统可以通过利用内部和外部推理组件与用户进行可预测的交互。</li>
+<li>设计一个对话管理和文档推理系统，用于维护状态并将信息强制转换为结构化格式。</li>
+<li>利用嵌入模型进行高效的相似性查询，以实现内容检索和对话防护。</li>
+<li>实施、模块化和评估 RAG 代理，该代理可以回答有关其数据集中研究论文的问题，而无需任何微调。</li>
+</ol>
+<h3 id="_3">内容主题</h3>
+<p>涵盖的主题包括：LLM推理接口、使用LangChain、Gradio和LangServe进行流水线设计、运行状态的对话管理、文档处理、用于语义相似性和护栏的嵌入、以及RAG Agent的向量存储。每个部分都旨在为参与者提供必要的知识和技能，以有效开发和部署先进的LLM系统。</p>
+<blockquote>
+<p><strong>嵌入（Embeddings）</strong>是一种将文本或其他数据转换为向量表示的技术。这种表示方式能够捕捉数据中的语义信息，使得计算机可以更有效地进行处理和分析。</p>
+<p><strong>语义相似性（Semantic Similarity）</strong>指的是衡量两个文本片段在意义上的相似程度。嵌入通过将文本转化为向量来表示，可以利用向量之间的距离（如余弦相似度）来计算文本之间的语义相似性。例如，如果两个句子具有相似的主题或意思，那么它们的嵌入向量之间的距离就会较小。</p>
+<p>在应用中，语义相似性可以用于：
+- <strong>信息检索</strong>：根据查询找到语义上最相关的文档。
+- <strong>推荐系统</strong>：根据用户偏好推荐相似的内容。
+- <strong>文本聚类</strong>：将具有相似主题的文本分组。</p>
+<p><strong>护栏（Guardrailing）</strong>在AI和机器学习中指的是一组用于限制或引导模型输出的规则和机制，确保模型行为在预期范围内。对于LLM（大语言模型），护栏可以用于：
+- <strong>避免不当输出</strong>：防止模型生成有害或不合适的内容。
+- <strong>增强安全性和可靠性</strong>：确保模型在规定范围内工作，不偏离既定目标。
+- <strong>提高准确性</strong>：通过嵌入和语义分析来识别潜在错误或偏差，进行自动校正或提示。</p>
+<p>在实践中，可以结合语义嵌入来实现护栏，例如，通过比较模型输出和期望结果之间的语义相似性来检测偏离和异常情况，进而触发相应的纠正措施。这种方法可以帮助在部署和使用AI系统时保持更高的安全性和可靠性。</p>
+</blockquote>
+<h3 id="_4">课程大纲</h3>
+<ul>
+<li>介绍NVIDIA Deep Learning Institute 并设置环境。</li>
+<li>探索 LLM 推理接口和微服务。</li>
+<li>使用 LangChain、Gradio 和 LangServe 设计 LLM 管道。</li>
+<li>管理对话状态并集成知识提取。</li>
+<li>处理长格式文档的策略。</li>
+<li>利用嵌入实现语义相似性和护栏。</li>
+<li>实现向量存储以实现高效的文档检索。</li>
+<li>评估、评估和认证。</li>
+</ul>
+<h2 id="_5">复现步骤</h2>
+<h3 id="step-1-nvidia-deep-learning-institute">Step 1 介绍NVIDIA Deep Learning Institute 并设置环境</h3>
+<h2 id="_6">扩展</h2>
 
 
 
@@ -457,10 +553,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.tabs", "navigation.expand", "navigation.sections", "toc.integrate", "toc.sections", "toc.follow", "toc.numbers", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "footer"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.tabs", "navigation.expand", "navigation.sections", "toc.integrate", "toc.sections", "toc.follow", "toc.numbers", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "footer"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
