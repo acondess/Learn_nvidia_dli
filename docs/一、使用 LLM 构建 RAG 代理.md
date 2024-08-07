@@ -1,5 +1,6 @@
 # 一、使用 LLM 构建 RAG 代理
 
+![alt text](image.png)
 ## 简介
 
 - [课程地址](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1)
@@ -33,7 +34,7 @@
 
 ### 课程大纲
 
-- 介绍NVIDIA Deep Learning Institute 并设置环境。
+- [介绍NVIDIA Deep Learning Institute 并设置环境。](#step-1-介绍nvidia-deep-learning-institute-并设置环境)
 - 探索 LLM 推理接口和微服务。
 - 使用 LangChain、Gradio 和 LangServe 设计 LLM 管道。
 - 管理对话状态并集成知识提取。
@@ -45,5 +46,20 @@
 ## 复现步骤
 
 ### Step 1 介绍NVIDIA Deep Learning Institute 并设置环境
+
+- [NVIDIA NGC Catalog](https://catalog.ngc.nvidia.com/)
+
+  ![alt text](image-1.png)
+
+- 课程重点
+  
+  ![alt text](image-2.png)
+
+- 前置条件
+
+    - Python
+    - LangChain
+    - Web 开发
+    ![alt text](image-3.png)
 
 ## 扩展
