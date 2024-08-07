@@ -44,4 +44,6 @@
 
 ## 复现步骤
 
+### Step 1 介绍NVIDIA Deep Learning Institute 并设置环境
+
 ## 扩展

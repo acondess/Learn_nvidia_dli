@@ -37,7 +37,7 @@ theme:
 extra:
   social:
     - icon: material/github
-      link: https://acondess.github.io/InternLM_learn_3/
+      link: https://acondess.github.io/Learn_nvidia_dli/
     # - icon: material/wechat
     #   link: https://acondess.github.io/vrBook/assets/img/wechat_qrcode.JPG
 
