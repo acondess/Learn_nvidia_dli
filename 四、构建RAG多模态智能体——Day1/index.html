@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../%E5%85%AD%E3%80%81%E6%9E%84%E5%BB%BARAG%E5%A4%9A%E6%A8%A1%E6%80%81%E6%99%BA%E8%83%BD%E4%BD%93%E2%80%94%E2%80%94Day3/">
       
-      
-        <link rel="next" href="../%E4%B8%83%E3%80%81%E8%AE%AD%E7%BB%83%E8%90%A5%E9%A1%B9%E7%9B%AE%E6%8A%A5%E5%91%8A/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>一、使用 LLM 构建 RAG 代理 - 跟着Nvidia学习deep learning</title>
+        <title>四、构建RAG多模态智能体——Day1 - 跟着Nvidia学习deep learning</title>
       
     
     
@@ -72,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#llm-rag" class="md-skip">
+        <a href="#ragday1" class="md-skip">
           跳转至
         </a>
       
@@ -108,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              一、使用 LLM 构建 RAG 代理
+              四、构建RAG多模态智能体——Day1
             
           </span>
         </div>
@@ -214,11 +212,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/" class="md-tabs__link">
         
   
     
@@ -301,9 +297,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../%E5%9B%9B%E3%80%81%E6%9E%84%E5%BB%BARAG%E5%A4%9A%E6%A8%A1%E6%80%81%E6%99%BA%E8%83%BD%E4%BD%93%E2%80%94%E2%80%94Day1/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -380,30 +378,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    一、使用 LLM 构建 RAG 代理
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../%E4%B8%80%E3%80%81%E4%BD%BF%E7%94%A8%20LLM%20%E6%9E%84%E5%BB%BA%20RAG%20%E4%BB%A3%E7%90%86/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -412,119 +390,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      简介
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="简介">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      学习目标
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      内容主题
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      课程大纲
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      复现步骤
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="复现步骤">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-nvidia-deep-learning-institute" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 1 介绍NVIDIA Deep Learning Institute 并设置环境
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-llm-services" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2 LLM Services
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step3-langchain" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step3 LangChain
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      扩展
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -613,10 +478,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../%E5%9B%9B%E3%80%81%E6%9E%84%E5%BB%BARAG%E5%A4%9A%E6%A8%A1%E6%80%81%E6%99%BA%E8%83%BD%E4%BD%93%E2%80%94%E2%80%94Day1/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -625,6 +499,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -644,84 +519,35 @@
                   
 
 
-<h1 id="llm-rag">一、使用 LLM 构建 RAG 代理</h1>
-<p><img alt="alt text" src="../image.png" /></p>
-<h2 id="_1">简介</h2>
+<h1 id="ragday1">四、构建RAG多模态智能体——Day1</h1>
 <ul>
-<li><a href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1">课程地址</a></li>
+<li><a href="https://teams.microsoft.com/l/meetup-join/19:meeting_NjBlOTEyZTctYWU1MC00ZmU1LWExM2EtNDQ5YWE5Y2I1MDNk@thread.v2/0?context=%7B%22Tid%22:%2243083d15-7273-40c1-b7db-39efd9ccc17a%22,%22Oid%22:%22e7709431-4b3a-4bf6-85a0-a27d6e881479%22%7D">直播地址</a></li>
 </ul>
-<h3 id="_2">学习目标</h3>
-<ol>
-<li>编写一个 LLM 系统，该系统可以通过利用内部和外部推理组件与用户进行可预测的交互。</li>
-<li>设计一个对话管理和文档推理系统，用于维护状态并将信息强制转换为结构化格式。</li>
-<li>利用嵌入模型进行高效的相似性查询，以实现内容检索和对话防护。</li>
-<li>实施、模块化和评估 RAG 代理，该代理可以回答有关其数据集中研究论文的问题，而无需任何微调。</li>
-</ol>
-<h3 id="_3">内容主题</h3>
-<p>涵盖的主题包括：LLM推理接口、使用LangChain、Gradio和LangServe进行流水线设计、运行状态的对话管理、文档处理、用于语义相似性和护栏的嵌入、以及RAG Agent的向量存储。每个部分都旨在为参与者提供必要的知识和技能，以有效开发和部署先进的LLM系统。</p>
-<blockquote>
-<p><strong>嵌入（Embeddings）</strong>是一种将文本或其他数据转换为向量表示的技术。这种表示方式能够捕捉数据中的语义信息，使得计算机可以更有效地进行处理和分析。</p>
-<p><strong>语义相似性（Semantic Similarity）</strong>指的是衡量两个文本片段在意义上的相似程度。嵌入通过将文本转化为向量来表示，可以利用向量之间的距离（如余弦相似度）来计算文本之间的语义相似性。例如，如果两个句子具有相似的主题或意思，那么它们的嵌入向量之间的距离就会较小。</p>
-<p>在应用中，语义相似性可以用于：
-- <strong>信息检索</strong>：根据查询找到语义上最相关的文档。
-- <strong>推荐系统</strong>：根据用户偏好推荐相似的内容。
-- <strong>文本聚类</strong>：将具有相似主题的文本分组。</p>
-<p><strong>护栏（Guardrailing）</strong>在AI和机器学习中指的是一组用于限制或引导模型输出的规则和机制，确保模型行为在预期范围内。对于LLM（大语言模型），护栏可以用于：
-- <strong>避免不当输出</strong>：防止模型生成有害或不合适的内容。
-- <strong>增强安全性和可靠性</strong>：确保模型在规定范围内工作，不偏离既定目标。
-- <strong>提高准确性</strong>：通过嵌入和语义分析来识别潜在错误或偏差，进行自动校正或提示。</p>
-<p>在实践中，可以结合语义嵌入来实现护栏，例如，通过比较模型输出和期望结果之间的语义相似性来检测偏离和异常情况，进而触发相应的纠正措施。这种方法可以帮助在部署和使用AI系统时保持更高的安全性和可靠性。</p>
-</blockquote>
-<h3 id="_4">课程大纲</h3>
+<h1 id="_1">笔记关键词</h1>
 <ul>
-<li><a href="#step-1-介绍nvidia-deep-learning-institute-并设置环境">介绍NVIDIA Deep Learning Institute 并设置环境。</a></li>
-<li>探索 LLM 推理接口和微服务。</li>
-<li>使用 LangChain、Gradio 和 LangServe 设计 LLM 管道。</li>
-<li>管理对话状态并集成知识提取。</li>
-<li>处理长格式文档的策略。</li>
-<li>利用嵌入实现语义相似性和护栏。</li>
-<li>实现向量存储以实现高效的文档检索。</li>
-<li>评估、评估和认证。</li>
-</ul>
-<h2 id="_5">复现步骤</h2>
-<h3 id="step-1-nvidia-deep-learning-institute">Step 1 介绍NVIDIA Deep Learning Institute 并设置环境</h3>
-<ul>
-<li><a href="https://catalog.ngc.nvidia.com/">NVIDIA NGC Catalog</a></li>
-</ul>
-<p><img alt="alt text" src="../image-1.png" /></p>
-<ul>
-<li>课程重点</li>
-</ul>
-<p><img alt="alt text" src="../image-2.png" /></p>
-<ul>
+<li>AIAgents是大模型落地的关键</li>
 <li>
-<p>前置条件</p>
-<ul>
-<li>Python</li>
-<li>LangChain</li>
-<li>Web 开发
-<img alt="alt text" src="../image-3.png" /></li>
-</ul>
+<p>AIAgent = 大模型时代的软件 （完成实际成产中的复杂任务）</p>
 </li>
 <li>
-<p><a href="../files/Introduction.pdf">介绍PPT</a></p>
+<p>不要高估六个月后我们能达成的目标，不要低估十八个月后我们能达成的目标。</p>
+</li>
+<li>
+<p>NV深度学习培训中心 ：https://www.nvidia.cn/training/online/</p>
 </li>
 </ul>
-<h3 id="step-2-llm-services">Step 2 LLM Services</h3>
+<h1 id="_2">步骤</h1>
+<h2 id="1">1. 实验平台</h2>
 <ul>
-<li>
-<p>启动环境</p>
-<p><img alt="alt text" src="../image-4.png" /></p>
-<p><img alt="alt text" src="../image-5.png" /></p>
-<p><img alt="alt text" src="../image-6.png" /></p>
-</li>
-<li>
-<p><a href="https://build.nvidia.com/explore/discover">模型&amp;api key网址</a></p>
-<p><img alt="alt text" src="../image-7.png" /></p>
-</li>
+<li>Jetson NX</li>
+<li>Jupyter lab</li>
 </ul>
-<h3 id="step3-langchain">Step3 LangChain</h3>
-<h2 id="_6">扩展</h2>
+<p>https://blog.csdn.net/kunhe0512/article/details/140910139</p>
+<h2 id="nvidia-nim">NVIDIA NIM</h2>
+<p>预构件容器化工具</p>
+<p>https://build.nvidia.com/</p>
+<h2 id="rag">RAG 工作流</h2>
+<p><img alt="alt text" src="../image-9.png" /></p>
 
 
 
